@@ -15,13 +15,7 @@
 
 
 
-
-
-
-
-
-
-// 1. Interpreted Progg language
+    // 1. Interpreted Progg language
 
 // var name = "love";
 // console.log(name, typeof name);
@@ -31,21 +25,6 @@
 
 // name = true;
 // console.log(name, typeof name);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -60,12 +39,6 @@
 
 // name = true;
 // console.log(name, typeof name);
-
-
-
-
-
-
 
 
 
@@ -176,7 +149,7 @@
 //     }
 
 //     console.log(name); // ram
-//     console.log(age); // 20 10
+//     console.log(age); // 20 
 // }
 
 
@@ -213,7 +186,7 @@
 // console.log("start");
 
 // function two(){
-//     console.log("age");
+//     console.log("age"); //err
 //     let age = 10;
 //     console.log(three())
 //     console.log(age);   
@@ -225,11 +198,10 @@
 // }
 
 // console.log("mid");
-// console.log(console.log(two()));
+// console.log(console.log(two()));  //for outer console it sgow undefined because inner 
+// //console is not returning anything so outer console will show undefined
 
 // console.log("end");
-
-
 
 // function one(){
 //     console.log(name);
@@ -237,9 +209,6 @@
 //     three()
 //     console.log(name);    
 // }
-
-
-
 
 
 
@@ -263,12 +232,6 @@
 //     console.log("Hello hitesh");
     
 // },2000)
-
-
-
-
-
-
 
 
 
@@ -313,9 +276,6 @@
 
 
 
-
-
-
 // 7. Closures -> function + its lexical scope of variables
 
 
@@ -330,28 +290,14 @@
 // let ans = outer();
 
 // console.log(ans()); // 1
-// console.log(ans()); // 1 2
-// console.log(ans()); //1 3
+// console.log(ans()); // 2
+// console.log(ans()); // 3
 
 
 // function inner(){
 //         count++
 //         return  count
 // //     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -391,19 +337,6 @@
         
 //     },0)
 // }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
